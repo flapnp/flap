@@ -1,0 +1,39 @@
+@import 'dashboard/variables';
+@import 'dashboard/mixins';
+
+// Plugins CSS
+@import "dashboard/plugins/plugin-animate-bootstrap-notify";
+@import "dashboard/plugins/plugin-perfect-scrollbar";
+
+// Core CSS
+@import "dashboard/buttons";
+@import "dashboard/inputs";
+@import "dashboard/typography";
+@import "dashboard/misc";
+@import "dashboard/checkboxes-radio";
+
+
+// components
+@import "dashboard/navbar";
+@import "dashboard/page-header";
+@import "dashboard/dropdown";
+@import "dashboard/alerts";
+@import "dashboard/images";
+@import "dashboard/nucleo-outline";
+@import "dashboard/tables";
+@import "dashboard/sidebar-and-main-panel";
+@import "dashboard/footers";
+@import "dashboard/fixed-plugin";
+
+// cards
+@import "dashboard/cards";
+@import "dashboard/cards/card-plain";
+@import "dashboard/cards/card-chart";
+@import "dashboard/cards/card-user";
+@import "dashboard/cards/card-map";
+@import "dashboard/cards/card-stats";
+
+@import "dashboard/responsive";
+
+// html to react differences
+@import "dashboard/react/react-differences.scss";

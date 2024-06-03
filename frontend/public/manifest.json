@@ -1,0 +1,15 @@
+{
+  "short_name": "Flap App",
+  "name": "Flap Card Application",
+  "icons": [
+    {
+      "src": "esa_3.webp",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
