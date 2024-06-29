@@ -30,8 +30,8 @@
     "slick-carousel": "^1.8.1"
   },
   "scripts": {
-    "start": "SET NODE_OPTIONS",
-    "build": "SET NODE_OPTIONS",
+    "start": "export NODE_OPTIONS='--openssl-legacy-provider' && react-scripts start",
+    "build": "export NODE_OPTIONS='--openssl-legacy-provider' && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "install:clean": "rm -rf node_modules/ && rm -rf package-lock.json && npm install && npm start",

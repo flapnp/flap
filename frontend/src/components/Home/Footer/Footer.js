@@ -9,8 +9,8 @@ import { Link } from 'react-router-dom';
 import '../../../assets/css/style.css';
 
 function Footer({isDarkTheme}) {
-  const emailAddress = 'info@flap.com.np';
-  const phoneNumber = '9851236760';
+  const emailAddress = 'card@flap.com.np';
+  const phoneNumber = '9802365432';
 
   const handleEmailClick = () => {
     window.location.href = `mailto:${emailAddress}`;
@@ -22,7 +22,7 @@ function Footer({isDarkTheme}) {
 
   const handleAddressClick = () => {
     // Use Google Maps URL with the address for navigation
-    window.location.href = ` https://maps.app.goo.gl/TaBcMJqCzB1GwcsBA`;
+    window.location.href = ` https://maps.app.goo.gl/tXmvjExmxv1xg2mR9`;
   };
 
   return (
@@ -48,10 +48,10 @@ function Footer({isDarkTheme}) {
           </p>
           
           <div className='footer-icons' style={{display:'flex', justifyContent:'center'}}>
-          <Link to="https://www.facebook.com/flapcardofficial" target="_blank" rel="noopener noreferrer">
+          <Link to="https://www.facebook.com/justtflap" target="_blank" rel="noopener noreferrer">
             <FacebookIcon className= {`footer-icon ${isDarkTheme? 'darkfont' : 'lightfont'}`}/>
           </Link>
-          <Link  to="https://www.instagram.com/flapcardnepal/" target="_blank" rel="noopener noreferrer">
+          <Link  to="https://www.instagram.com/justtflap/" target="_blank" rel="noopener noreferrer">
             <InstagramIcon className= {`footer-icon ${isDarkTheme? 'darkfont' : 'lightfont'}`} />
           </Link>
           <Link  to="https://www.linkedin.com/company/flapcard" target="_blank" rel="noopener noreferrer">
