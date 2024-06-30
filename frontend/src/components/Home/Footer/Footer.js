@@ -95,10 +95,10 @@ function Footer({isDarkTheme}) {
           <h4 align="center" className='foot-head'>Get In Touch</h4><br/>
           <div className='foot-contents-touch'>
           <Link className={`foot-content ${isDarkTheme? 'darkfont' : 'lightfont'}`} onClick={handleEmailClick} target="_blank" rel="noopener noreferrer">
-            <span > <i class="fa-solid fa-envelope touchicon"></i> info@flap.com.np</span> 
+            <span > <i class="fa-solid fa-envelope touchicon"></i> card@flap.com.np</span> 
           </Link> <br/>
           <Link className={`foot-content ${isDarkTheme? 'darkfont' : 'lightfont'}`} onClick={handlePhoneClick}target="_blank" rel="noopener noreferrer">
-            <span ><i class="fa-solid fa-phone touchicon"></i>9851236760</span> 
+            <span ><i class="fa-solid fa-phone touchicon"></i>9802365432</span> 
           </Link> <br/> 
           <Link className={`foot-content ${isDarkTheme? 'darkfont' : 'lightfont'}`} onClick={handleAddressClick} target="_blank" rel="noopener noreferrer">
             <span ><i class="fa-solid fa-location-dot touchicon"></i>Lazimpat, Kathmandu</span> 
