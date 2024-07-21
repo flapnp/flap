@@ -22,7 +22,7 @@ function Footer(props) {
           <div className="credits ml-auto">
             <div className="copyright">
               &copy; {1900 + new Date().getYear()}, 
-              ESA
+              Flap
             </div>
           </div>
         </Row>
